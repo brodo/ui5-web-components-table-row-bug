@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head lang='en'>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width'>
+	<title>Table Bug Demo</title>
+
+	<style>
+		body {
+			font-family: 'Helvetica Neue', Arial, sans-serif;
+			color: #333;
+			font-weight: 300;
+		}
+	</style>
+</head>
+<body>
+	<h1>ui5-table-row regression</h1>
+	<ui5-table id="table">
+		<ui5-table-column slot="columns">
+			Name
+		</ui5-table-column>
+		<ui5-table-column slot="columns">
+			Username
+		</ui5-table-column>
+		<ui5-table-column slot="columns">
+			Email
+		</ui5-table-column>
+	</ui5-table>
+	<script src='bundle.js'></script>
+</body>
+</html>
